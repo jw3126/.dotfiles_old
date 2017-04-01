@@ -18,6 +18,7 @@ Plugin 'jpalardy/vim-slime'
 " Plugin 'xero/blaquemagick.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
