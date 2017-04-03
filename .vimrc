@@ -19,6 +19,7 @@ Plugin 'jpalardy/vim-slime'
 Plugin 'itchyny/lightline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -46,6 +47,9 @@ if has('persistent_undo')
 endif
 
 set number
+
+" enhanced tab completion
+set wildmenu
 
 "folding settings
 " let g:vimwiki_folding='list'
