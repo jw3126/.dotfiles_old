@@ -51,5 +51,7 @@ set number
 " enhanced tab completion
 set wildmenu
 
+let g:ctrlp_working_path_mode = 'w'
+
 "folding settings
 " let g:vimwiki_folding='list'
