@@ -27,9 +27,15 @@ call vundle#end()            " required
 let g:slime_target = "tmux"
 let g:slime_default_config = {"socket_name": "default", "target_pane": "0"}
 
+" tabs and spaces
 set expandtab
 set shiftwidth=4
 set tabstop=4
+
+" show line endings, tabs etc.
+set list
+set number
+
 filetype plugin indent on
 
 " store .swp files in a different directory - don't pollute git trees
@@ -45,8 +51,6 @@ if has('persistent_undo')
     set undolevels=1000         " Maximum number of changes that can be undone
     set undoreload=10000        " Maximum number lines to save for undo on a buffer reload
 endif
-
-set number
 
 " enhanced tab completion
 set wildmenu
